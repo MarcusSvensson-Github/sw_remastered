@@ -1,0 +1,13 @@
+services:
+  database:
+    image: postgres:latest
+    ports:
+      - 5432:5432
+    container_name: postgresdb
+    environment:
+      - POSTGRES_PASSWORD=maytheforcebewithyou
+
+  starwars_ELT:
+    build: ./scripts
+    depends_on:
+      - database
