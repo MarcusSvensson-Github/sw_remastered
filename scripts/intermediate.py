@@ -19,3 +19,4 @@ def create_intermediate_bridges(resources):
 
     conn.commit()
     conn.close()
+    

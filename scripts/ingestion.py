@@ -11,7 +11,7 @@ def build_starwars_db(resources):
     """
     pipeline for starwars api
     """
-    engine = create_engine('postgresql+psycopg2://postgres:maytheforcebewithyou@postgres_db/postgres')
+    engine = create_engine('postgresql+psycopg2://postgres:maytheforcebewithyou@postgresdb/postgres')
     
 
     for resource in resources:

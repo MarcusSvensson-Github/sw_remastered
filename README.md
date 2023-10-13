@@ -1,16 +1,21 @@
-# StarWarsDatalake
-A datalake of star wars data retrieved from the swapi API
+# StarWars elt
+A star wars data extraxter and loader, retrieved from the swapi API.
+with docker you can initate two containers
+    -   postgres database container
+    -   python scripts container
 
 
-### Setup your containers with 
+### Setup  
 
 1. Download latest docker release and if desired the desktop app
 
-2. Build images and run them with ```docker compose up --build -d```
+### Run
 
-3. To shutdown the containers ```docker compose down```
+1. Build images and run them with ```docker compose up --build -d```
 
-4. Your Jupyter for Jupyter notebooks runs on local host port 8888 together 
-    can be accessed together with token printed in terminal
+2. To shutdown the containers ```docker compose down```
 
 
+
+#### Note
+Currently not scheduled

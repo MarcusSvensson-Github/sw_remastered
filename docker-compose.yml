@@ -7,7 +7,7 @@ services:
     environment:
       - POSTGRES_PASSWORD=maytheforcebewithyou
 
-  starwars_ELT:
+  starwars_elt:
     build: ./scripts
     depends_on:
       - database
